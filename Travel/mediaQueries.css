@@ -1,0 +1,170 @@
+@media screen and (max-width: 992px) {
+
+    nav .search {
+        display: none;
+    }
+
+    .about {
+        width: 80%;
+    }
+
+    .about .about_content h2 {
+        padding: 4px 0px;
+        font-size: 25px;
+    }
+
+    .about .about_content p {
+        padding: 0;
+    }
+
+    .footerLogo img {
+        width: 215px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .navBar {
+        justify-content: space-between;
+    }
+
+    nav ul {
+        position: absolute;
+        flex-direction: column;
+        top: 57px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a {
+        color: #fff;
+    }
+    .d-md-block {
+        display: block !important;
+    }
+    .card img {
+        padding: 7px;
+    }
+
+    .card p {
+        display: none;
+    }
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        padding-right: 16px;
+
+    }
+}
+
+@media screen and (max-width: 558px) {
+    .navBar{
+        margin-top: 9px;
+    }
+    .carousel-fullscreen {
+        margin-top: -58px;
+    }
+    nav .logo img {
+        width: 86px;
+        padding: 4px;
+    }
+    .menu-icon img {
+        width: 32px;
+    }
+    .serHeading h1 {
+        font-size: 1.5rem;
+    }
+
+    .destHead h1 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 13px;
+        padding: 0 2px;
+    }
+
+    section .cards .card h4 {
+        font-size: 1rem;
+    }
+    .card img {
+        width: 79px;
+    }
+    .imageGridContainer {
+        gap: 3px;
+    }
+    .grid_container {
+        gap: 5px;
+        width: 90%;
+}
+.Destinations {
+    margin: 3% 0;
+}
+.contactSec h1 {
+    font-size: 26px;
+}
+
+
+input {
+    padding: 4px;
+    font-size: 12px;
+}
+.grid_container .textArea textarea {
+    font-size: 12px;
+    height: 85px;
+    padding: 4px;
+}
+button {
+    padding: 6px 30px;
+    font-size: 12px;
+}
+.grid_container .formBtn {
+    grid-area: formBtn;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Partner-logo .logo-image {
+    flex-wrap: wrap;
+}
+.about .image {
+    width: 55%;
+}
+.about .image img {
+    width: 96%;
+   margin: 3px;
+}
+.about .about_content p {
+    display: none;
+}
+
+.Partner-logo img {
+    width: 34%;
+    padding: 10px;
+}
+
+footer .allLinks {
+    flex-direction: column;
+    text-align: center;
+}
+.footerLogo img {
+    width: 166px;
+}
+footer .copyRights {
+    flex-direction: column;
+}
+.copy {
+    margin-top: 11px;
+}
+}
